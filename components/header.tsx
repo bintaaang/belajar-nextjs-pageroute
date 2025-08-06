@@ -14,7 +14,7 @@ const Header = () => {
     <header className="w-full bg-white text-black shadow-sm">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
         <div className="text-lg font-semibold tracking-tight">
-          JAWAA
+          X
         </div>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           <a href="#" className="hover:text-blue-600 transition-colors">Home</a>
@@ -23,7 +23,7 @@ const Header = () => {
         </nav>
         <div className="hidden md:block">
           <a
-            href="/login"
+            href="#"
             className="px-4 py-2 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors"
           >
             Login

@@ -1,12 +1,9 @@
-import Head from "next/head";
-
 export default function LoginPage() {
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+      <div className="bg-black">
         <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
           <h1 className="text-2xl font-bold mb-6 text-center text-black">Login to your account</h1>
-
           <form className="space-y-5">
             <div>
               <label htmlFor="email" className="block text-sm font-bold text-black">
